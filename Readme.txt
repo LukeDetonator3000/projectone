@@ -1,7 +1,7 @@
 No exercicio 3 tem informações sobre como transformar numero em string e vice versa
 também tem informação sobre strings.
 No exercicio 4 formatação de numero
-
+No exercicio 5 DOM Document Object Model
 
 
 

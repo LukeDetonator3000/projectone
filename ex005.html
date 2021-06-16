@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--DOM = Document Object Model-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: rgb(95, 95, 161);
+            color: hsl(0, 0%, 100%);
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudando <strong>DOM</strong></h1>
+    <p>teste da tag p</p>
+    <p>Estudando <strong>DOM</strong></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur sapiente explicabo veniam eum repudiandae eius soluta dicta facilis necessitatibus, officiis dolorem earum laudantium, eligendi odio, corporis accusamus at expedita?</p>
+    <div id="btn">clique aqui <div></div></div>
+    <script>
+        var d = window.document.querySelector('div#btn')
+        d.style.color = 'blue';
+       /* var d = window.document.getElementById('btn')
+        var p1 = window.document.getElementsByTagName('p')[0];
+        window.document.write('teste: '+p1.innerText);
+        var corpo = window.document.body;
+        corpo.style.background = 'hsl(36, 59%, 39%)';
+        d.style.background = 'red';
+        */
+    </script>
+</body>
+</html>
