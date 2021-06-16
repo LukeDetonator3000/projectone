@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project One</title>
+
+    <style>
+        body{
+            background-color: rgb(98, 199, 189);
+            color: black; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudando JS, parte-1 </h1>
+    <script>
+       /*var n1 = window.prompt('digite um numero: ')
+         var n1 = window.prompt('digite outro numero: ')
+        String para numero: Number.parseFloat (float) Number.parseInt(int) Number(o codigo js escolhe)
+        Numero para String: String(n) ou n.toString()
+    */
+       var n1 = Number.parseFloat(window.prompt('digite um numero: '))
+       var n2 = Number.parseFloat(window.prompt('digite outro numero: '))
+       var s = n1 + n2;
+       window.alert('A soma dos dois numeros é: ' + s)// ou entre (`A soma dos dois numeros é: ${s}`)
+       /* + para adição,      porém tem q ser number + number
+        + para concatenação,porém tem q ser string + number
+       'Eu estou aprendendo s' Não faz interpolação 
+       'Eu estou aprendendo ' + s usa concatenação 
+       `Eu estou aprendendo ${s}` //usa template string (placeholder ${})
+       s.length (diz o tamanho da string)
+       s.toUpperCase()  (deixa em minusculo)
+       s.toLowwerCase() (deixa em maiusculo)
+       */
+    </script>
+</body>
+</html>
