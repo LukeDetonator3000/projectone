@@ -2,9 +2,11 @@ No exercicio 3 tem informações sobre como transformar numero em string e vice 
 também tem informação sobre strings.
 No exercicio 4 formatação de numero
 No exercicio 5 DOM Document Object Model
-
-
-
+No exercicio 6 Comandos de mouse, 
+https://www.w3schools.com/jsref/dom_obj_event.asp
+https://developer.mozilla.org/pt-BR/docs/Web/Events
+No exercicio 9 Nacionalidade
+No exercicio 10 sistema de multas
 
 
 
